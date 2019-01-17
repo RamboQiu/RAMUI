@@ -1,0 +1,53 @@
+PODS:
+  - RAMRouter (1.0.4):
+    - RAMRouter/RAMController (= 1.0.4)
+    - RAMRouter/RAMCore (= 1.0.4)
+    - RAMRouter/RAMR3 (= 1.0.4)
+    - RAMUtil/RAMColor
+    - RAMUtil/RAMFrame
+    - RAMUtil/RAMImage
+    - RAMUtil/RAMLog
+  - RAMRouter/RAMController (1.0.4):
+    - RAMUtil/RAMColor
+    - RAMUtil/RAMFrame
+    - RAMUtil/RAMImage
+    - RAMUtil/RAMLog
+  - RAMRouter/RAMCore (1.0.4):
+    - RAMRouter/RAMController
+    - RAMRouter/RAMR3
+    - RAMUtil/RAMColor
+    - RAMUtil/RAMFrame
+    - RAMUtil/RAMImage
+    - RAMUtil/RAMLog
+  - RAMRouter/RAMR3 (1.0.4):
+    - RAMUtil/RAMColor
+    - RAMUtil/RAMFrame
+    - RAMUtil/RAMImage
+    - RAMUtil/RAMLog
+  - RAMUI (1.0.0)
+  - RAMUtil/RAMColor (1.0.2)
+  - RAMUtil/RAMFrame (1.0.2)
+  - RAMUtil/RAMImage (1.0.2)
+  - RAMUtil/RAMLog (1.0.2)
+
+DEPENDENCIES:
+  - RAMRouter (~> 1.0.4)
+  - RAMUI (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RAMRouter
+    - RAMUtil
+
+EXTERNAL SOURCES:
+  RAMUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RAMRouter: 5e3c6d5c56048fb831e2ed67308e169119a19304
+  RAMUI: 1f882bc65fc045c482c5aab1b0d75fdc28605894
+  RAMUtil: ee934ab5d4ccb643b45471d694080274fe716e32
+
+PODFILE CHECKSUM: bd864980f47873ec5b1c454c10979b3b8e976c5e
+
+COCOAPODS: 1.5.3

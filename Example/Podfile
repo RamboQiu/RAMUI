@@ -1,0 +1,8 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RAMUIDemo' do
+  pod 'RAMUI', :path => '../'
+  pod 'RAMRouter', '~> 1.0.4'
+end
